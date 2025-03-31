@@ -1,0 +1,134 @@
+<div class="row travelers-container">
+  <div class="col">
+    <span class="sector-title">Travelers</span>
+    <form [formGroup]="travelerForm" novalidate (ngSubmit)="onSubmit()">
+      <mat-card class="shipping-card">
+        <mat-card-header>
+          <mat-card-title>Traveler 1: Adult</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="row">
+            <div class="col">
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label>First name</mat-label>
+                <input
+                  matInput
+                  placeholder="First name"
+                  formControlName="firstName"
+                />
+                @if (travelerForm.controls['firstName'].hasError('required')) {
+                <mat-error>First name is <strong>required</strong></mat-error>
+                }
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Last name</mat-label>
+                <input
+                  matInput
+                  placeholder="Last name"
+                  formControlName="lastName"
+                />
+                @if (travelerForm.controls['lastName'].hasError('required')) {
+                <mat-error>Last name is <strong>required</strong></mat-error>
+                }
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <mat-label>Gender</mat-label>
+              <mat-radio-group formControlName="gender">
+                <mat-radio-button value="male">Male</mat-radio-button>
+                <mat-radio-button value="female">Female</mat-radio-button>
+              </mat-radio-group>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Month of birth</mat-label>
+                <mat-select placeholder="Month of birth" formControlName="month">
+                  @for (month of months; track month) {
+                    <mat-option [value]="month">{{month}}</mat-option>
+                  }
+                </mat-select>
+                @if (travelerForm.controls['month'].hasError('required')) {
+                <mat-error>Month is <strong>required</strong></mat-error>
+                }
+              </mat-form-field>
+            </div>
+            <div class="col">
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Day of birth</mat-label>
+                <mat-select placeholder="Day of birth" formControlName="day">
+                  @for (day of days; track day) {
+                    <mat-option [value]="day">{{day}}</mat-option>
+                  }
+                </mat-select>
+                @if (travelerForm.controls['day'].hasError('required')) {
+                <mat-error>Day is <strong>required</strong></mat-error>
+                }
+              </mat-form-field>
+            </div>
+            <div class="col">
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Year of birth</mat-label>
+                <mat-select placeholder="Year of birth" formControlName="year">
+                  @for (year of years; track year) {
+                    <mat-option [value]="year">{{year}}</mat-option>
+                  }
+                </mat-select>
+                @if (travelerForm.controls['year'].hasError('required')) {
+                <mat-error>Year is <strong>required</strong></mat-error>
+                }
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <mat-form-field class="full-width" appearance="outline">
+                <mat-label>Citizenship</mat-label>
+                <mat-select placeholder="Citizenship" formControlName="citizenship">
+                  @for (country of countries; track country) {
+                    <mat-option [value]="country">{{country}}</mat-option>
+                  }
+                </mat-select>
+                @if (travelerForm.controls['citizenship'].hasError('required'))
+                {
+                <mat-error>Citizenship is <strong>required</strong></mat-error>
+                }
+              </mat-form-field>
+            </div>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-stroked-button type="button" routerLink="/">Back</button>
+          <button
+            mat-flat-button
+            color="primary"
+            type="submit"
+            [disabled]="!travelerForm.valid"
+          >
+            Submit
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </form>
+  </div>
+  <div class="col">
+    <span class="sector-title">Price summary</span>
+    <div class="price-summary">
+      <div class="price-row">
+        <span>✈ Flight</span>
+        <span>${{ flightPrice() }}</span>
+      </div>
+      <div class="price-total">
+        <span>Total</span>
+        <span class="number">${{ flightPrice() }}</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,51 @@
+<div class="filter-container">
+  <!-- Sort By Section -->
+  <div class="filter-section">
+    <h3>Sort by</h3>
+    <select 
+      [value]="selectedSort().label" 
+      (change)="onSortChange($event)"
+      class="sort-select">
+      @for (option of sortOptions; track option.key + option.direction) {
+        <option [value]="option.label">{{option.label}}</option>
+      }
+    </select>
+  </div>
+
+  <!-- Price Range Section -->
+  <div class="filter-section">
+    <h3>Price</h3>
+    <div class="price-range">
+      ${{priceRange().currentMin.toFixed(2)}} - ${{priceRange().currentMax.toFixed(2)}}
+    </div>
+    <mat-slider 
+      class="price-slider"
+      [min]="priceRange().min"
+      [max]="priceRange().max">
+      <input 
+        matSliderStartThumb
+        [value]="priceRange().currentMin"
+        (input)="onPriceChange($event, 'min')">
+      <input 
+        matSliderEndThumb
+        [value]="priceRange().currentMax"
+        (input)="onPriceChange($event, 'max')">
+    </mat-slider>
+  </div>
+
+  <!-- Stops Section -->
+  <div class="filter-section">
+    <h3>Stops</h3>
+    @for (stop of stops(); track stop.label; let i = $index) {
+      <div class="stop-option">
+        <input 
+          type="checkbox" 
+          [id]="'stop-' + i"
+          [checked]="stop.checked"
+          (change)="onStopsChange(i)"
+        />
+        <label [for]="'stop-' + i">{{stop.label}}</label>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,56 @@
+@if (loading()) {
+<div>Loading flights...</div>
+} @else if (error()) {
+<div>{{ error() }}</div>
+} @else { @for (flight of flights(); track flight.id) {
+<div class="flight-card">
+  <div class="flights">
+    @for (segment of flight.flights; track getTrackingKey(segment)) {
+    <div class="flight-segment">
+      <div class="airline">
+        <img
+          [src]="getAirlineLogoUrl(segment.airline)"
+          [alt]="segment.airline"
+          class="airline-logo"
+        />
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="time">{{ segment.departure_time | timeFormat }}</span>
+          <div class="row">
+            <span>{{ segment.departure_airport }}</span>
+            <span>{{ segment.departure_date | dateFormat }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="time">{{ segment.arrival_time | timeFormat }}</span>
+          <div class="row">
+            <span>{{ segment.arrival_airport }}</span>
+            <span>{{ segment.arrival_date | dateFormat }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="time">{{ formatDuration(segment.duration_minutes) }}</span>
+          <span >{{
+            segment.stops === 0 ? "Nonstop" : segment.stops + " stop"
+          }}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+  <div class="price-section">
+    <div>${{ flight.price }}</div>
+    <div class="per-adult">Per adult</div>
+    <button [routerLink]="['/travelers']" [queryParams]="{ id: flight.id, price: flight.price }">Book</button>
+  </div>
+</div>
+} @if (hasMoreFlights()) {
+<div class="show-more">
+  <button (click)="onLoadMore()" class="show-more-button">Show More</button>
+</div>
+} }
