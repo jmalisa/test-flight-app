@@ -46,7 +46,7 @@
   <div class="price-section">
     <div>${{ flight.price }}</div>
     <div class="per-adult">Per adult</div>
-    <button [routerLink]="['/travelers']" [queryParams]="{ id: flight.id, price: flight.price }">Book</button>
+    <button (click)="bookFlight(flight)">Book</button>
   </div>
 </div>
 } @if (hasMoreFlights()) {

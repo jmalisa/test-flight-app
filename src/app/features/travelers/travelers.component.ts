@@ -5,7 +5,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { TravelerFormService } from './traveler-form.service';
 import { MONTHS, DAYS, YEARS, COUNTRIES } from '../../shared/constants/constants';
@@ -27,9 +27,9 @@ import { TravelerFormData } from './models/traveler.model';
 })
 export class TravelersComponent {
   private fb = inject(FormBuilder);
-  private route = inject(ActivatedRoute);
   private destroyRef = inject(DestroyRef);
   private travelerFormService = inject(TravelerFormService);
+  private router = inject(Router);
 
   flightId = signal<string>('');
   flightPrice = signal<number>(0);
@@ -49,9 +49,16 @@ export class TravelersComponent {
   readonly years = YEARS;
   readonly countries = COUNTRIES;
   constructor() {
-    const params = this.route.snapshot.queryParams;
-    this.flightId.set(params['id']);
-    this.flightPrice.set(Number(params['price']));
+    const navigation = this.router.getCurrentNavigation();
+    const state = navigation?.extras.state as { flightId: string; flightPrice: number } || null;
+    
+    if (!state) {
+      this.router.navigate(['/']);
+      return;
+    }
+
+    this.flightId.set(state.flightId);
+    this.flightPrice.set(state.flightPrice);
 
     // Load saved form data if it exists
     const savedData = this.travelerFormService.getForm();

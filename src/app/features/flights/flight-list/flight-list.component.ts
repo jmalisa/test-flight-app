@@ -1,8 +1,8 @@
-import { Component, input, output } from '@angular/core';
+import { Component, inject, input, output } from '@angular/core';
 import { FlightItinerary } from '../models/flight.interface';
 import { TimeFormatPipe } from '../../../shared/pipes/time-format.pipe';
 import { DateFormatPipe } from '../../../shared/pipes/date-format.pipe';
-import { RouterLink } from '@angular/router';
+import { Router } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { environment } from '../../../../environments/environment';
 
@@ -10,9 +10,10 @@ import { environment } from '../../../../environments/environment';
   selector: 'app-flight-list',
   templateUrl: './flight-list.component.html',
   styleUrl: './flight-list.component.css',
-  imports: [TimeFormatPipe, DateFormatPipe, RouterLink, MatButtonModule],
+  imports: [TimeFormatPipe, DateFormatPipe, MatButtonModule],
 })
 export class FlightListComponent {
+  router = inject(Router);
   flights = input.required<FlightItinerary[]>();
   loading = input<boolean>();
   error = input<string | null>();
@@ -36,5 +37,11 @@ export class FlightListComponent {
 
   onLoadMore() {
     this.loadMore.emit();
+  }
+
+  bookFlight(flight: FlightItinerary) {
+    this.router.navigate(['/travelers'], {
+      state: { flightId: flight.id, flightPrice: flight.price }
+    });
   }
 }
