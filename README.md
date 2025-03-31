@@ -1,5 +1,5 @@
 # Flight Test Application
-Welcome to the presentation of test assignment task for frontend developer - enjoy :)  
+Welcome to the presentation of test assignment task for frontend developer - enjoy and fly with us :)  
 
 ## Prerequisites
 Before running this application, please ensure you have the following installed:
