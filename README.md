@@ -24,7 +24,7 @@ Before running this application, please ensure you have the following installed:
      ```
 
 ## Running the Application
-There are two ways to run this application:
+There are three ways to run this application:
 
 ### Method 1: Using Angular CLI (Recommended)
 1. Navigate to the project directory:
@@ -61,6 +61,25 @@ There are two ways to run this application:
    ```
 
 4. Open your browser and navigate to `http://localhost:4200`
+
+### Method 3: Using docker - prerequisite docker installed
+1. Navigate to the project directory:
+   ```bash
+   cd test-flight-app
+   ```
+
+2. Build docker image:
+   ```bash
+   docker build -t my-app .
+   ```
+
+3. Start the application:
+   ```bash
+   docker run -d -p 4200:80 my-app
+   ```
+
+4. Open your browser and navigate to `http://localhost:4200`
+
 
 ## Development server
 The application will automatically reload if you change any of the source files while the server is running.
