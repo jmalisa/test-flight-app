@@ -4,7 +4,6 @@ import { TimeFormatPipe } from '../../../shared/pipes/time-format.pipe';
 import { DateFormatPipe } from '../../../shared/pipes/date-format.pipe';
 import { Router } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-import { environment } from '../../../../environments/environment';
 
 @Component({
   selector: 'app-flight-list',
@@ -22,7 +21,7 @@ export class FlightListComponent {
   loadMore = output();
 
   getAirlineLogoUrl(airlineCode: string): string {
-    return `${environment.cdnUrl}/${airlineCode}.svg`;
+    return `/assets/${airlineCode}.svg`;
   }
 
   formatDuration(minutes: number): string {

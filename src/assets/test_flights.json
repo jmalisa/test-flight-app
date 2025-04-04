@@ -1,0 +1,5602 @@
+[
+    {
+      "id": 304613,
+      "price": 2363.2,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304614,
+      "price": 2363.2,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304615,
+      "price": 2363.2,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304608,
+      "price": 2363.2,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304609,
+      "price": 2363.2,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304610,
+      "price": 2363.2,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304611,
+      "price": 2363.2,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304612,
+      "price": 2363.2,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304623,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "19:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 810,
+          "arrival_date": "2025-06-18",
+          "arrival_time": "08:35:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304624,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:35:00",
+          "departure_airport": "BER",
+          "duration_minutes": 580,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "19:15:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304625,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:35:00",
+          "departure_airport": "BER",
+          "duration_minutes": 490,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "17:45:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304626,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 445,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:40:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304627,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 415,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:10:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304629,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 690,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "17:45:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304628,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 780,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "19:15:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304616,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:35:00",
+          "departure_airport": "BER",
+          "duration_minutes": 245,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:40:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304617,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 870,
+          "arrival_date": "2025-06-18",
+          "arrival_time": "08:35:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304618,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:10:00",
+          "departure_airport": "BER",
+          "duration_minutes": 425,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "19:15:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304619,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:10:00",
+          "departure_airport": "BER",
+          "duration_minutes": 335,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "17:45:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304620,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:10:00",
+          "departure_airport": "BER",
+          "duration_minutes": 425,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "19:15:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304621,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:10:00",
+          "departure_airport": "BER",
+          "duration_minutes": 335,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "17:45:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304622,
+      "price": 2406.6,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "19:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 875,
+          "arrival_date": "2025-06-18",
+          "arrival_time": "09:40:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304642,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 825,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:00:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304630,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "15:40:00",
+          "departure_airport": "BER",
+          "duration_minutes": 345,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:25:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304631,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:10:00",
+          "departure_airport": "BER",
+          "duration_minutes": 555,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:25:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304632,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:10:00",
+          "departure_airport": "BER",
+          "duration_minutes": 470,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:00:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304633,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:10:00",
+          "departure_airport": "BER",
+          "duration_minutes": 470,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:00:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304634,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:35:00",
+          "departure_airport": "BER",
+          "duration_minutes": 370,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:45:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304635,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:35:00",
+          "departure_airport": "BER",
+          "duration_minutes": 625,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:00:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304636,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:35:00",
+          "departure_airport": "BER",
+          "duration_minutes": 370,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:45:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304637,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "15:40:00",
+          "departure_airport": "BER",
+          "duration_minutes": 260,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:00:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304638,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "15:40:00",
+          "departure_airport": "BER",
+          "duration_minutes": 260,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:00:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304639,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 570,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:45:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304640,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 320,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "11:35:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304641,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 280,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:55:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304643,
+      "price": 2407.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 570,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:45:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "AF"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 740,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:35:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304657,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1520,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304644,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "09:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1350,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304645,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1275,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304646,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304647,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1285,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304648,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304649,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1420,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304650,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1390,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304651,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1445,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304652,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "07:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1485,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304653,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1520,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304654,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1330,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304655,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1330,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304656,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1275,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304666,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1475,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304667,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1275,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304668,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1330,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304669,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1275,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304670,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1520,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304671,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "07:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1485,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304672,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1445,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304673,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1390,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304674,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1475,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304675,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1420,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304676,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1285,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304677,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "09:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1350,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304678,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1330,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304679,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1330,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304680,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1520,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304681,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "07:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1485,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304682,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1445,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304683,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1390,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304684,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1475,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304685,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1420,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304686,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304687,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1285,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304688,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304689,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "09:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1350,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304690,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1275,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304691,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1275,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304692,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1520,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304693,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "07:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1485,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304694,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1445,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304695,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1390,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304696,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1420,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304697,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304698,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1285,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304699,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304700,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "09:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1350,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304701,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1330,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304702,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1475,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304703,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1520,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304704,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "07:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1485,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304705,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1445,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304706,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1390,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304707,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1475,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304708,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1420,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304709,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304710,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1285,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304711,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304712,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "09:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1350,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304713,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1275,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304714,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304715,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1520,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304716,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "07:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1485,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304717,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1445,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304718,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1390,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304719,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1475,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304720,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1420,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304721,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1330,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304722,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1285,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304723,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304724,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "09:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1350,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304725,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1330,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304726,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1520,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304727,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "09:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1350,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304728,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304729,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1285,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304730,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304731,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1420,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304732,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "16:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1275,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304733,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1390,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304734,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1445,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304735,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "07:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1485,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304736,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1475,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304658,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "07:15:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1485,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304659,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1445,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304660,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1390,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304661,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1475,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304662,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1420,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304663,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1630,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304664,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "10:35:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1285,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304665,
+      "price": 2425.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "09:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1350,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "14:00:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "AF"
+        }
+      ]
+    },
+    {
+      "id": 304738,
+      "price": 2446.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "11:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1225,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "13:25:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CI"
+        }
+      ]
+    },
+    {
+      "id": 304737,
+      "price": 2446.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "11:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1225,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "13:25:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CI"
+        }
+      ]
+    },
+    {
+      "id": 304744,
+      "price": 2446.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "11:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1225,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "13:25:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CI"
+        }
+      ]
+    },
+    {
+      "id": 304743,
+      "price": 2446.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "11:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1225,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "13:25:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CI"
+        }
+      ]
+    },
+    {
+      "id": 304742,
+      "price": 2446.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "11:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1225,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "13:25:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CI"
+        }
+      ]
+    },
+    {
+      "id": 304741,
+      "price": 2446.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "11:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1225,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "13:25:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CI"
+        }
+      ]
+    },
+    {
+      "id": 304740,
+      "price": 2446.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "11:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1225,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "13:25:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CI"
+        }
+      ]
+    },
+    {
+      "id": 304739,
+      "price": 2446.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "11:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1225,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "13:25:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CI"
+        }
+      ]
+    },
+    {
+      "id": 304751,
+      "price": 2745,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1220,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "23:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "MF"
+        }
+      ]
+    },
+    {
+      "id": 304746,
+      "price": 2745,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1220,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "23:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "MF"
+        }
+      ]
+    },
+    {
+      "id": 304745,
+      "price": 2745,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1220,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "23:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "MF"
+        }
+      ]
+    },
+    {
+      "id": 304747,
+      "price": 2745,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1220,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "23:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "MF"
+        }
+      ]
+    },
+    {
+      "id": 304748,
+      "price": 2745,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1220,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "23:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "MF"
+        }
+      ]
+    },
+    {
+      "id": 304749,
+      "price": 2745,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1220,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "23:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "MF"
+        }
+      ]
+    },
+    {
+      "id": 304750,
+      "price": 2745,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1220,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "23:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "MF"
+        }
+      ]
+    },
+    {
+      "id": 304752,
+      "price": 2745,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:30:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1220,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "23:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "MF"
+        }
+      ]
+    },
+    {
+      "id": 304759,
+      "price": 3405.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304760,
+      "price": 3405.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304753,
+      "price": 3405.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304754,
+      "price": 3405.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304755,
+      "price": 3405.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304756,
+      "price": 3405.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304757,
+      "price": 3405.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304758,
+      "price": 3405.8,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304763,
+      "price": 3465.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1065,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "11:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "GA"
+        }
+      ]
+    },
+    {
+      "id": 304761,
+      "price": 3465.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1065,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "11:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "GA"
+        }
+      ]
+    },
+    {
+      "id": 304762,
+      "price": 3465.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1065,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "11:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "GA"
+        }
+      ]
+    },
+    {
+      "id": 304764,
+      "price": 3465.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1065,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "11:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "GA"
+        }
+      ]
+    },
+    {
+      "id": 304765,
+      "price": 3465.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1065,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "11:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "GA"
+        }
+      ]
+    },
+    {
+      "id": 304766,
+      "price": 3465.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1065,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "11:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "GA"
+        }
+      ]
+    },
+    {
+      "id": 304767,
+      "price": 3465.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1065,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "11:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "GA"
+        }
+      ]
+    },
+    {
+      "id": 304790,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1070,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304783,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1015,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304784,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1070,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304785,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1085,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:55:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304786,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1015,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304787,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1070,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304788,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1085,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:55:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304789,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1015,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304791,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1070,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304768,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1015,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304769,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1085,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:55:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304770,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1015,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304771,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1070,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304772,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1085,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:55:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304773,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1015,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304774,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1070,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304775,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1085,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:55:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304776,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1015,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304777,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1070,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304778,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1085,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:55:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304779,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1015,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "19:45:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304780,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1085,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:55:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304781,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1070,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304782,
+      "price": 3471.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "20:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1085,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "20:55:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304793,
+      "price": 3628.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "08:20:00",
+          "departure_airport": "BER",
+          "duration_minutes": 600,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:20:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "BT"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "09:50:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1595,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:25:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304792,
+      "price": 3628.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "08:20:00",
+          "departure_airport": "BER",
+          "duration_minutes": 600,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:20:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "BT"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "08:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1680,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:25:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304795,
+      "price": 3630.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "08:20:00",
+          "departure_airport": "BER",
+          "duration_minutes": 600,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:20:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "BT"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "08:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1700,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:25:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304794,
+      "price": 3630.1,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "08:20:00",
+          "departure_airport": "BER",
+          "duration_minutes": 600,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:20:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "BT"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "06:45:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1780,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:25:00",
+          "arrival_airport": "KUL",
+          "stops": 2,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304796,
+      "price": 3755.7,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "12:05:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1065,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "11:50:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "GA"
+        }
+      ]
+    },
+    {
+      "id": 304799,
+      "price": 4192,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "08:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 390,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "14:30:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "LO"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304797,
+      "price": 4192,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "11:10:00",
+          "departure_airport": "BER",
+          "duration_minutes": 485,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "19:15:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "LO"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304798,
+      "price": 4192,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "11:10:00",
+          "departure_airport": "BER",
+          "duration_minutes": 630,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:40:00",
+          "arrival_airport": "AMS",
+          "stops": 1,
+          "airline": "LO"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "14:00:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 1360,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "18:40:00",
+          "arrival_airport": "KUL",
+          "stops": 1,
+          "airline": "CZ"
+        }
+      ]
+    },
+    {
+      "id": 304802,
+      "price": 4262.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "10:45:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "12:10:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 735,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:40:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304800,
+      "price": 4262.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "06:00:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "07:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 735,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:40:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304807,
+      "price": 4262.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "20:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "21:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 735,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:40:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304806,
+      "price": 4262.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "18:50:00",
+          "departure_airport": "BER",
+          "duration_minutes": 90,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "20:20:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 735,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:40:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304805,
+      "price": 4262.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "17:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "18:50:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 735,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:40:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304804,
+      "price": 4262.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "14:30:00",
+          "departure_airport": "BER",
+          "duration_minutes": 85,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "15:55:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 735,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:40:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304803,
+      "price": 4262.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "12:15:00",
+          "departure_airport": "BER",
+          "duration_minutes": 80,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "13:35:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 735,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:40:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    },
+    {
+      "id": 304801,
+      "price": 4262.3,
+      "flights": [
+        {
+          "departure_date": "2025-06-17",
+          "departure_time": "09:05:00",
+          "departure_airport": "BER",
+          "duration_minutes": 95,
+          "arrival_date": "2025-06-17",
+          "arrival_time": "10:40:00",
+          "arrival_airport": "AMS",
+          "stops": 0,
+          "airline": "KL"
+        },
+        {
+          "departure_date": "2025-06-21",
+          "departure_time": "21:25:00",
+          "departure_airport": "AMS",
+          "duration_minutes": 735,
+          "arrival_date": "2025-06-22",
+          "arrival_time": "15:40:00",
+          "arrival_airport": "KUL",
+          "stops": 0,
+          "airline": "KL"
+        }
+      ]
+    }
+  ]
