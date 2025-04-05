@@ -2,6 +2,15 @@
 <div>Loading flights...</div>
 } @else if (error()) {
 <div>{{ error() }}</div>
+} @else if (flights().length === 0) {
+  <div class="no-flights">
+    <div class="no-flights-content">
+      <img src="/assets/plane.svg" alt="Airplane" class="plane-icon" width="64" height="64" />
+      <h2>No Flights Found</h2>
+      <p>Looks like our planes are taking a coffee break! ☕️</p>
+      <p class="hint">Try adjusting your filters to find more flights</p>
+    </div>
+  </div>
 } @else { @for (flight of flights(); track flight.id) {
 <div class="flight-card">
   <div class="flights">

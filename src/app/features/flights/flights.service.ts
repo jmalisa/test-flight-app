@@ -10,6 +10,7 @@ export class FlightService {
   private readonly http = inject(HttpClient);
 
   getFlights(): Observable<FlightItinerary[]> {
+    // Use the correct path to the JSON file in assets
     return this.http.get<FlightItinerary[]>('assets/test_flights.json');
   }
 }

@@ -1,4 +1,4 @@
-export interface FlightSegment {
+export interface Flight {
   departure_date: string;
   departure_time: string;
   departure_airport: string;
@@ -13,5 +13,5 @@ export interface FlightSegment {
 export interface FlightItinerary {
   id: number;
   price: number;
-  flights: FlightSegment[];
+  flights: Flight[];
 } 
