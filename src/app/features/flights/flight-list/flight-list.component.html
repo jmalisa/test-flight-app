@@ -11,14 +11,14 @@
       <p class="hint">Try adjusting your filters to find more flights</p>
     </div>
   </div>
-} @else { @for (flight of flights(); track flight.id) {
+} @else { @for (flight of processedFlights(); track flight.id) {
 <div class="flight-card">
   <div class="flights">
     @for (segment of flight.flights; track getTrackingKey(segment)) {
     <div class="flight-segment">
       <div class="airline">
         <img
-          [src]="getAirlineLogoUrl(segment.airline)"
+          [src]="segment.logoUrl"
           [alt]="segment.airline"
           class="airline-logo"
         />
@@ -43,7 +43,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <span class="time">{{ formatDuration(segment.duration_minutes) }}</span>
+          <span class="time">{{ segment.duration_minutes | durationFormat }}</span>
           <span >{{
             segment.stops === 0 ? "Nonstop" : segment.stops + " stop"
           }}</span>

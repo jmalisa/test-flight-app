@@ -1,4 +1,4 @@
-import { Component, inject, signal, computed, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { FilterFlightsComponent } from './filter-flights/filter-flights.component';
 import { FlightListComponent } from './flight-list/flight-list.component';
 import { FlightService } from './flights.service';
@@ -14,7 +14,9 @@ import {
   selector: 'app-flights',
   imports: [FilterFlightsComponent, FlightListComponent],
   templateUrl: './flights.component.html',
-  styleUrl: './flights.component.css'
+  styleUrl: './flights.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush
+
 })
 export class FlightsComponent implements OnInit {
   private flightService = inject(FlightService);
@@ -30,8 +32,12 @@ export class FlightsComponent implements OnInit {
   
   // Filters
   activeSort = signal<SortOption>(DEFAULT_SORT);
-  activePriceRange = signal<PriceRange>(DEFAULT_PRICE_RANGE);
-  activeStops = signal<number[]>([-1]); // -1 represents "All stops"
+  activePriceRange = signal<PriceRange>(DEFAULT_PRICE_RANGE, 
+    { equal: (a,b) => 
+      a.currentMin === b.currentMin && 
+      a.currentMax === b.currentMax 
+    }
+  );  activeStops = signal<number[]>([-1]); // -1 represents "All stops"
 
   // Computed values for child components
   filteredFlights = computed(() => {

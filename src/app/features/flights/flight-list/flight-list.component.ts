@@ -1,15 +1,15 @@
-import { Component, inject, input, output } from '@angular/core';
-import { FlightItinerary } from '../models/flight.interface';
+import { Component, computed, inject, input, output } from '@angular/core';
+import { Flight, FlightItinerary } from '../models/flight.interface';
 import { TimeFormatPipe } from '../../../shared/pipes/time-format.pipe';
 import { DateFormatPipe } from '../../../shared/pipes/date-format.pipe';
+import { TimeDurationPipe } from '../../../shared/pipes/time-duration.pipe';
 import { Router } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-
 @Component({
   selector: 'app-flight-list',
   templateUrl: './flight-list.component.html',
   styleUrl: './flight-list.component.css',
-  imports: [TimeFormatPipe, DateFormatPipe, MatButtonModule],
+  imports: [TimeFormatPipe, DateFormatPipe, TimeDurationPipe, MatButtonModule],
 })
 export class FlightListComponent {
   router = inject(Router);
@@ -20,17 +20,18 @@ export class FlightListComponent {
 
   loadMore = output();
 
-  getAirlineLogoUrl(airlineCode: string): string {
-    return `/assets/${airlineCode}.svg`;
-  }
+  // Precomputed flights data with logo URLs
+  processedFlights = computed(() => 
+    this.flights().map(flight => ({
+      ...flight,
+      flights: flight.flights.map(segment => ({
+        ...segment,
+        logoUrl: `/assets/${segment.airline}.svg`
+      }))
+    }))
+  );
 
-  formatDuration(minutes: number): string {
-    const hours = Math.floor(minutes / 60);
-    const remainingMinutes = minutes % 60;
-    return `${hours}h ${remainingMinutes}m`;
-  }
-
-  getTrackingKey(segment: any): string {
+  getTrackingKey(segment: Flight): string {
     return `${segment.departure_date}_${segment.arrival_time}_${segment.arrival_airport}`;
   }
 
