@@ -3,7 +3,12 @@ import { FilterFlightsComponent } from './filter-flights/filter-flights.componen
 import { FlightListComponent } from './flight-list/flight-list.component';
 import { FlightService } from './flights.service';
 import { FlightItinerary } from './models/flight.interface';
-import { SortOption, PriceRange } from './models/filter.interface';
+import { 
+  SortOption, 
+  PriceRange, 
+  DEFAULT_SORT, 
+  DEFAULT_PRICE_RANGE 
+} from './models/filter.interface';
 
 @Component({
   selector: 'app-flights',
@@ -24,19 +29,8 @@ export class FlightsComponent implements OnInit {
   pageSize = 5;
   
   // Filters
-  activeSort = signal<SortOption>({
-    label: 'Price (Lowest)',
-    key: 'price',
-    direction: 'asc'
-  });
-  
-  activePriceRange = signal<PriceRange>({
-    min: 0,
-    max: 10000,
-    currentMin: 0,
-    currentMax: 10000
-  });
-  
+  activeSort = signal<SortOption>(DEFAULT_SORT);
+  activePriceRange = signal<PriceRange>(DEFAULT_PRICE_RANGE);
   activeStops = signal<number[]>([-1]); // -1 represents "All stops"
 
   // Computed values for child components
@@ -65,29 +59,36 @@ export class FlightsComponent implements OnInit {
       flights = [...flights].sort((a, b) => {
         const key = this.activeSort().key;
         const multiplier = this.activeSort().direction === 'asc' ? 1 : -1;
-        
+          
         switch (key) {
           case 'price':
             return (a.price - b.price) * multiplier;
           
-          case 'departure_time':
-            // Get earliest departure time from segments
-            const timeA = a.flights[0]?.departure_time || '';
-            const timeB = b.flights[0]?.departure_time || '';
-            return timeA.localeCompare(timeB) * multiplier;
+          case 'departure':
+            const dateTimeA = new Date(`${a.flights[0]?.departure_date}T${a.flights[0]?.departure_time}`);
+            const dateTimeB = new Date(`${b.flights[0]?.departure_date}T${b.flights[0]?.departure_time}`);
+            return (dateTimeA.getTime() - dateTimeB.getTime()) * multiplier;
           
-          case 'duration_minutes':
-            // Calculate total duration for each itinerary
+          case 'duration':
             const durationA = a.flights.reduce((sum, segment) => sum + segment.duration_minutes, 0);
             const durationB = b.flights.reduce((sum, segment) => sum + segment.duration_minutes, 0);
             return (durationA - durationB) * multiplier;
+          
+          case 'arrival':
+            const arrivalDateTimeA = new Date(`${a.flights[0]?.arrival_date}T${a.flights[0]?.arrival_time}`);
+            const arrivalDateTimeB = new Date(`${b.flights[0]?.arrival_date}T${b.flights[0]?.arrival_time}`);
+            return (arrivalDateTimeA.getTime() - arrivalDateTimeB.getTime()) * multiplier;
+          
+          case 'airline':
+            const airlineA = a.flights[0]?.airline || '';
+            const airlineB = b.flights[0]?.airline || '';
+            return airlineA.localeCompare(airlineB) * multiplier;
           
           default:
             return 0;
         }
       });
     }
-
     return flights;
   });
 

@@ -1,57 +1,32 @@
-import {
-  Component,
-  input,
-  output,
-  signal,
-  effect,
-} from '@angular/core';
+import { Component, input, output, signal, effect } from '@angular/core';
 import { FlightItinerary } from '../models/flight.interface';
 import {
   PriceRange,
   StopOption,
   SortOption,
+  SortKeys,
+  SortOptionKey,
+  DEFAULT_SORT,
+  DEFAULT_PRICE_RANGE,
+  FilterChangeEvent,
 } from '../models/filter.interface';
 import { MatSliderModule } from '@angular/material/slider';
-
 @Component({
   selector: 'app-filter-flights',
   templateUrl: './filter-flights.component.html',
   styleUrls: ['./filter-flights.component.css'],
-  imports: [
-    MatSliderModule
-  ],
+  imports: [MatSliderModule],
 })
 export class FilterFlightsComponent {
   flights = input.required<FlightItinerary[]>();
-  filterChange = output<{
-    sort: SortOption;
-    priceRange: PriceRange;
-    stops: number[];
-  }>();
+  filterChange = output<FilterChangeEvent>();
 
-  sortOptions: SortOption[] = [
-    { label: 'Price (Lowest)', key: 'price', direction: 'asc' },
-    { label: 'Price (Highest)', key: 'price', direction: 'desc' },
-    { label: 'Duration (Shortest)', key: 'duration_minutes', direction: 'asc' },
-    { label: 'Duration (Longest)', key: 'duration_minutes', direction: 'desc' },
-    { label: 'Departure (Earliest)', key: 'departure_time', direction: 'asc' },
-    { label: 'Departure (Latest)', key: 'departure_time', direction: 'desc' },
-  ];
-
-  selectedSort = signal<SortOption>(this.sortOptions[0]);
-
-  priceRange = signal<PriceRange>({
-    min: 0,
-    max: 10000,
-    currentMin: 0,
-    currentMax: 10000,
-  });
+  sortOptions: SortOption[] = [];
+  selectedSort = signal<SortOption>(DEFAULT_SORT);
+  priceRange = signal<PriceRange>(DEFAULT_PRICE_RANGE);
 
   stops = signal<StopOption[]>([
     { label: 'All stops', value: -1, checked: true },
-    { label: 'Nonstop', value: 0, checked: false },
-    { label: '1 stop', value: 1, checked: false },
-    { label: '2 stops', value: 2, checked: false },
   ]);
 
   constructor() {
@@ -64,59 +39,77 @@ export class FilterFlightsComponent {
   private initializeFilters(flights: FlightItinerary[]): void {
     if (!flights.length) return;
 
+    // Generate sort options dynamically
+    this.generateSortOptions();
+
+    // Set default sort option if none selected
+    if (!this.selectedSort()) {
+      this.selectedSort.set(this.sortOptions[0]);
+    }
+
     // Update price range based on actual flight prices
-    const prices = flights.map(f => f.price);
+    const prices = flights.map((f) => f.price);
     const minPrice = Math.min(...prices);
     const maxPrice = Math.max(...prices);
-    
+
     this.priceRange.set({
       min: minPrice,
       max: maxPrice,
       currentMin: minPrice,
-      currentMax: maxPrice
+      currentMax: maxPrice,
     });
 
-    // Get available sort options based on data
-    const hasPrice = flights.some(f => f.price !== undefined);
-    const hasDuration = flights.some(f => f.flights.some(s => s.duration_minutes));
-    const hasDeparture = flights.some(f => f.flights.some(s => s.departure_time));
-
-    const availableSortOptions = [
-      ...(hasPrice ? [
-        { label: 'Price (Lowest)', key: 'price', direction: 'asc' },
-        { label: 'Price (Highest)', key: 'price', direction: 'desc' }
-      ] : []),
-      ...(hasDuration ? [
-        { label: 'Duration (Shortest)', key: 'duration_minutes', direction: 'asc' },
-        { label: 'Duration (Longest)', key: 'duration_minutes', direction: 'desc' }
-      ] : []),
-      ...(hasDeparture ? [
-        { label: 'Departure (Earliest)', key: 'departure_time', direction: 'asc' },
-        { label: 'Departure (Latest)', key: 'departure_time', direction: 'desc' }
-      ] : [])
-    ] as SortOption[];
-
-    this.sortOptions = availableSortOptions;
-    if (availableSortOptions.length) {
-      this.selectedSort.set(availableSortOptions[0]);
-    }
-
+    // Get unique stops from flight data
     const uniqueStops = new Set(
-      flights.flatMap(f => f.flights.map(segment => segment.stops))
+      flights.flatMap((f) => f.flights.map((segment) => segment.stops))
     );
 
     // TODO: mutable update - possible change detection issue
-    this.stops.update(() => {
-      const availableStops = Array.from(uniqueStops).sort((a, b) => a - b);
-      return [
-        { label: 'All stops', value: -1, checked: true },
-        ...availableStops.map(stopCount => ({
-          label: stopCount === 0 ? 'Nonstop' : `${stopCount} stop${stopCount > 1 ? 's' : ''}`,
+    this.stops.update((current) => [
+      { label: 'All stops', value: -1, checked: true },
+      ...Array.from(uniqueStops)
+        .sort((a, b) => a - b)
+        .map((stopCount) => ({
+          label:
+            stopCount === 0
+              ? 'Nonstop'
+              : `${stopCount} stop${stopCount > 1 ? 's' : ''}`,
           value: stopCount,
-          checked: false
-        }))
-      ];
-    });
+          checked: false,
+        })),
+    ]);
+  }
+
+  private generateSortOptions(): void {
+    // Define the keys from the SortOption type
+    const sortKeys: SortOptionKey[] = [
+      SortKeys.Price,
+      SortKeys.Departure,
+      SortKeys.Duration,
+      SortKeys.Arrival,
+      SortKeys.Airline,
+    ];
+
+    // Generate sort options dynamically
+    this.sortOptions = sortKeys.flatMap((key) => [
+      {
+        label: `${this.formatKeyName(key)} (ascending)`,
+        key: key,
+        direction: 'asc',
+      },
+      {
+        label: `${this.formatKeyName(key)} (descending)`,
+        key: key,
+        direction: 'desc',
+      },
+    ]);
+  }
+
+  // Helper function to format key names into a more readable format
+  private formatKeyName(key: string): string {
+    // Split the key by underscores, capitalize the first word, and join them back
+    const words = key.split('_');
+    return words[0].charAt(0).toUpperCase() + words[0].slice(1);
   }
 
   onSortChange(event: Event): void {
