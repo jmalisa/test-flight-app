@@ -16,7 +16,7 @@
                   placeholder="First name"
                   formControlName="firstName"
                 />
-                @if (travelerForm.controls['firstName'].hasError('required')) {
+                @if (firstNameHasError) {
                 <mat-error>First name is <strong>required</strong></mat-error>
                 }
               </mat-form-field>
@@ -31,7 +31,7 @@
                   placeholder="Last name"
                   formControlName="lastName"
                 />
-                @if (travelerForm.controls['lastName'].hasError('required')) {
+                @if (lastNameHasError) {
                 <mat-error>Last name is <strong>required</strong></mat-error>
                 }
               </mat-form-field>
@@ -55,7 +55,7 @@
                     <mat-option [value]="month">{{month}}</mat-option>
                   }
                 </mat-select>
-                @if (travelerForm.controls['month'].hasError('required')) {
+                @if (monthHasError) {
                 <mat-error>Month is <strong>required</strong></mat-error>
                 }
               </mat-form-field>
@@ -68,7 +68,7 @@
                     <mat-option [value]="day">{{day}}</mat-option>
                   }
                 </mat-select>
-                @if (travelerForm.controls['day'].hasError('required')) {
+                @if (dayHasError) {
                 <mat-error>Day is <strong>required</strong></mat-error>
                 }
               </mat-form-field>
@@ -81,7 +81,7 @@
                     <mat-option [value]="year">{{year}}</mat-option>
                   }
                 </mat-select>
-                @if (travelerForm.controls['year'].hasError('required')) {
+                @if (yearHasError) {
                 <mat-error>Year is <strong>required</strong></mat-error>
                 }
               </mat-form-field>
@@ -96,8 +96,7 @@
                     <mat-option [value]="country">{{country}}</mat-option>
                   }
                 </mat-select>
-                @if (travelerForm.controls['citizenship'].hasError('required'))
-                {
+                @if (citizenshipHasError) {
                 <mat-error>Citizenship is <strong>required</strong></mat-error>
                 }
               </mat-form-field>
