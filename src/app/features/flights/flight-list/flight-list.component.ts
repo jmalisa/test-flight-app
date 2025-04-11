@@ -1,4 +1,4 @@
-import { Component, computed, inject, input, output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, inject, input, output } from '@angular/core';
 import { Flight, FlightItinerary } from '../models/flight.interface';
 import { TimeFormatPipe } from '../../../shared/pipes/time-format.pipe';
 import { DateFormatPipe } from '../../../shared/pipes/date-format.pipe';
@@ -10,6 +10,7 @@ import { MatButtonModule } from '@angular/material/button';
   templateUrl: './flight-list.component.html',
   styleUrl: './flight-list.component.css',
   imports: [TimeFormatPipe, DateFormatPipe, TimeDurationPipe, MatButtonModule],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FlightListComponent {
   router = inject(Router);

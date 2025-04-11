@@ -41,7 +41,7 @@ export const DEFAULT_PRICE_RANGE: PriceRange = {
   max: 10000,
   currentMin: 0,
   currentMax: 10000
-} as const;
+};
 
 export interface FilterChangeEvent {
   sort: SortOption;

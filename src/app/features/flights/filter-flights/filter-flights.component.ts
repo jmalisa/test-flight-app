@@ -1,4 +1,11 @@
-import { Component, input, output, signal, effect } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  input,
+  output,
+  signal,
+  effect,
+} from '@angular/core';
 import { FlightItinerary } from '../models/flight.interface';
 import {
   PriceRange,
@@ -16,14 +23,20 @@ import { MatSliderModule } from '@angular/material/slider';
   templateUrl: './filter-flights.component.html',
   styleUrls: ['./filter-flights.component.css'],
   imports: [MatSliderModule],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FilterFlightsComponent {
   flights = input.required<FlightItinerary[]>();
   filterChange = output<FilterChangeEvent>();
 
   sortOptions: SortOption[] = [];
-  selectedSort = signal<SortOption>(DEFAULT_SORT);
-  priceRange = signal<PriceRange>(DEFAULT_PRICE_RANGE);
+  priceRange = signal<PriceRange>(DEFAULT_PRICE_RANGE, {
+    equal: (a, b) =>
+      a.currentMin === b.currentMin && a.currentMax === b.currentMax,
+  });
+  selectedSort = signal<SortOption>(DEFAULT_SORT, {
+    equal: (a, b) => a.key === b.key && a.direction === b.direction,
+  });
 
   stops = signal<StopOption[]>([
     { label: 'All stops', value: -1, checked: true },
@@ -65,7 +78,7 @@ export class FilterFlightsComponent {
     );
 
     // TODO: mutable update - possible change detection issue
-    this.stops.update((current) => [
+    this.stops.set([
       { label: 'All stops', value: -1, checked: true },
       ...Array.from(uniqueStops)
         .sort((a, b) => a - b)
@@ -138,7 +151,7 @@ export class FilterFlightsComponent {
       if (index === 0) {
         // If "All stops" is clicked
         const newChecked = !stops[0].checked;
-        return stops.map((stop) => ({ ...stop, checked: newChecked }));
+        return stops.map(stop => ({ ...stop, checked: newChecked }));
       } else {
         // If specific stop option is clicked
         const newStops = stops.map((stop, i) => {
