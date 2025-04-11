@@ -1,0 +1,23 @@
+Task Description
+
+Functionality
+Develop a multi-page application consisting of two pages:
+First page – 
+Flight list with filtering and sorting options:
+To retrieve the flight list, send a GET request to test_flights.json
+Filters should be dynamically generated based on available criteria from the flight list
+Ability to sort by key parameters (price, departure time, etc.)
+The page should display the first 5 flights, and the Show more button should display the next 5, and so on
+Airline logos are available in public assets
+Second page – 
+Traveler information form:
+The form must include required input fields
+Instead of sending a real POST request when the form is submitted, display the traveler form data and flight ID in an alert or console log
+Key requirement – if the user fills out the form, clicks the "Back" button, and selects any flight, the previously entered data should remain in the form.
+
+Include a Readme.md file with instructions for running the project
+
+
+
+
+
