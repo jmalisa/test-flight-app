@@ -46,29 +46,23 @@ export class FlightsComponent implements OnInit {
 
   // Computed values for child components
   filteredFlights = computed(() => {
-    let flights = this.allFlights();
+    return this.allFlights()
+      .filter((flight) => {
+        // Apply all filters in a single pass
+        const priceInRange =
+          !this.activePriceRange() ||
+          (flight.price >= this.activePriceRange().currentMin &&
+            flight.price <= this.activePriceRange().currentMax);
 
-    // Apply price filter
-    if (this.activePriceRange()) {
-      flights = flights.filter(
-        (flight) =>
-          flight.price >= this.activePriceRange().currentMin &&
-          flight.price <= this.activePriceRange().currentMax
-      );
-    }
+        const stopsMatch =
+          this.activeStops().includes(-1) ||
+          flight.flights.some((segment) =>
+            this.activeStops().includes(segment.stops)
+          );
 
-    // Apply stops filter
-    if (!this.activeStops().includes(-1)) {
-      flights = flights.filter((flight) =>
-        flight.flights.some((segment) =>
-          this.activeStops().includes(segment.stops)
-        )
-      );
-    }
-
-    // Apply sorting
-    if (this.activeSort()) {
-      flights = [...flights].sort((a, b) => {
+        return priceInRange && stopsMatch;
+      })
+      .sort((a, b) => {
         const key = this.activeSort().key;
         const multiplier = this.activeSort().direction === 'asc' ? 1 : -1;
 
@@ -117,8 +111,6 @@ export class FlightsComponent implements OnInit {
             return 0;
         }
       });
-    }
-    return flights;
   });
 
   displayedFlights = computed(() => {
